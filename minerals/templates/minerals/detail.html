@@ -1,0 +1,47 @@
+{% extends 'minerals/layout.html' %}
+
+{% block title %}{{ mineral.name }}{% endblock %}
+
+{% load static %}
+
+{% load mineral_extras %}
+
+{% block content %}
+
+
+  <div class="bounds bounds--small">
+{% logo_header %}
+    <div class="grid-100 mineral__container">
+      <h1 class="mineral__name">{{ mineral.name }}</h1>
+      <div class="mineral__image-bg">
+        <img class="mineral__image" src="{% static mineral.image_filename %}">
+        <p class="mineral__caption">{{ mineral.image_caption }}</p  >
+      </div>
+
+      <div class="mineral__table-container">
+        <table class="mineral__table">
+        {% for field in mineral.get_all_fields %}
+            {% if field.name == 'category' %}
+                <tr>
+                    <td class="mineral__category">{{ field.label }}</td>
+                    <td class="mineral__category">{{ field.value  }}</td>
+                </tr>
+            {% elif field.name == 'formula' %}
+                <tr>
+                    <td class="mineral__category">{{ field.label }}</td>
+                    <td class="mineral__category">{{ field.value | markdown_to_html | safe }}</td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td class="mineral__category">{{ field.label }}</td>
+                    <td class="mineral__category">{{ field.value }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+

@@ -1,0 +1,51 @@
+[
+	{
+		"name": "Abelsonite",
+		"image filename": "240px-Abelsonite_-_Green_River_Formation%2C_Uintah_County%2C_Utah%2C_USA.jpg",
+		"image caption": "Abelsonite from the Green River Formation, Uintah County, Utah, US",
+		"category": "Organic",
+		"formula": "C<sub>31</sub>H<sub>32</sub>N<sub>4</sub>Ni",
+		"strunz classification": "10.CA.20",
+		"crystal system": "Triclinic",
+		"unit cell": "a = 8.508 Å, b = 11.185 Åc=7.299 Å, α = 90.85°β = 114.1°, γ = 79.99°Z = 1",
+		"color": "Pink-purple, dark greyish purple, pale purplish red, reddish brown",
+		"crystal symmetry": "Space group: P1 or P1Point group: 1 or 1",
+		"cleavage": "Probable on {111}",
+		"mohs scale hardness": "2–3",
+		"luster": "Adamantine, sub-metallic",
+		"streak": "Pink",
+		"diaphaneity": "Semitransparent",
+		"optical properties": "Biaxial",
+		"group": "Organic Minerals"
+	},
+	{
+		"name": "Abernathyite",
+		"image filename": "240px-Abernathyite%2C_Heinrichite-497484.jpg",
+		"image caption": "Pale yellow abernathyite crystals and green heinrichite crystals",
+		"category": "Arsenate",
+		"formula": "K(UO<sub>2</sub>)(AsO<sub>4</sub>)·<sub>3</sub>H<sub>2</sub>O",
+		"strunz classification": "08.EB.15",
+		"crystal system": "Tetragonal",
+		"unit cell": "a = 7.176Å, c = 18.126ÅZ = 4",
+		"color": "Yellow",
+		"crystal symmetry": "H-M group: 4/m 2/m 2/mSpace group: P4/ncc",
+		"cleavage": "Perfect on {001}",
+		"mohs scale hardness": "2.5–3",
+		"luster": "Sub-Vitreous, resinous, waxy, greasy",
+		"streak": "Pale yellow",
+		"diaphaneity": "Transparent",
+		"optical properties": "Uniaxial (-)",
+		"refractive index": "nω = 1.597 – 1.608nε = 1.570",
+		"group": "Arsenates"
+	},
+	{
+		"name": "Abhurite",
+		"image filename": "240px-Abhurite_-_Shipwreck_Hydra%2C_South_coast_of_Norway.jpg",
+		"image caption": "Brownish tabular crystals of abhurite from Shipwreck \"Hydra\", South coast of Norway",
+		"category": "Halide",
+		"formula": "Sn<sub>21</sub>O<sub>6</sub>(OH)<sub>14</sub>Cl<sub>16</sub>",
+		"strunz classification": "03.DA.30",
+		"crystal symmetry": "Trigonal",
+		"group": "Halides"
+	}
+]
