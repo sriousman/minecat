@@ -1,8 +1,5 @@
 from django.db import models
-from django.core.files import File
-from minecat import settings
 
-import urllib
 import json
 
 
@@ -61,6 +58,7 @@ class Mineral(models.Model):
         return fields
 
 
+
 def JSONReader(filename):
     with open(filename) as data_file:
         data = json.load(data_file)
@@ -80,6 +78,7 @@ def clean(data):
 
         cdat.append(cd)
     return cdat
+
 
 def save_images():
     minerals = Mineral.objects.all()

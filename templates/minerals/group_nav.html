@@ -1,0 +1,8 @@
+<nav class="text-centered">
+|
+    {% for g in groups %}
+
+            <a href="{% url 'minerals:minerals_by_group' group=g %}" class="mineral__group {% if current == g %}active{% endif %}">{{ g }}</a> |
+
+    {% endfor %}
+</nav>

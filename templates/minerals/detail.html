@@ -1,4 +1,4 @@
-{% extends 'minerals/layout.html' %}
+{% extends 'layout.html' %}
 
 {% block title %}{{ mineral.name }}{% endblock %}
 
@@ -10,7 +10,6 @@
 
 
   <div class="bounds bounds--small">
-{% logo_header %}
     <div class="grid-100 mineral__container">
       <h1 class="mineral__name">{{ mineral.name }}</h1>
       <div class="mineral__image-bg">

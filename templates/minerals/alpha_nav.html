@@ -1,0 +1,8 @@
+
+<nav class="text-centered">
+
+        {% for a in alpha_list %}
+            <a href="{% url 'minerals:minerals_by_first_letter' alpha=a%}" class="{% if current == a %}active{% endif %}">{{ a }}</a>
+        {% endfor %}
+
+</nav>

@@ -16,16 +16,25 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf import settings
-from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-from .settings import MEDIA_ROOT
+from django.conf import settings
+
+from . import views
 
 
 urlpatterns = [
     url(r'^minerals/', include('minerals.urls', namespace='minerals')),
     url(r'^admin/', admin.site.urls),
-    url(r'', include('minerals.urls', namespace='minerals')),
+    url(r'^$', views.home, name='index'),
+
 ]
+urlpatterns += staticfiles_urlpatterns()
 
 if settings.DEBUG is True:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+    import debug_toolbar
+
+    urlpatterns += [
+                      url(r'^__debug__/', include(debug_toolbar.urls)),
+                  ] + urlpatterns

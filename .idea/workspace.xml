@@ -1,7 +1,905 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a17508a-8e5c-4965-a292-5c176a1dbec7" name="Default" comment="" />
+    <list default="true" id="8a17508a-8e5c-4965-a292-5c176a1dbec7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minecat/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/minerals/alpha_nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/minerals/group_nav.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/css/global.css" afterPath="$PROJECT_DIR$/assets/css/global.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/data/minerals.json" afterPath="$PROJECT_DIR$/assets/data/minerals.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/data/test_data.json" afterPath="$PROJECT_DIR$/assets/data/test_data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/%C5kermanite.jpg" afterPath="$PROJECT_DIR$/assets/images/%C5kermanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Abelsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Abelsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Abernathyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Abernathyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Abhurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Abhurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Abramovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Abramovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Acanthite.jpg" afterPath="$PROJECT_DIR$/assets/images/Acanthite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Actinolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Actinolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Adamite.jpg" afterPath="$PROJECT_DIR$/assets/images/Adamite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Adamsite-(Y).jpg" afterPath="$PROJECT_DIR$/assets/images/Adamsite-(Y).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aegirine.jpg" afterPath="$PROJECT_DIR$/assets/images/Aegirine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aenigmatite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aenigmatite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aerinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aerinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aeschynite-(Y).jpg" afterPath="$PROJECT_DIR$/assets/images/Aeschynite-(Y).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Afghanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Afghanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Afwillite.jpg" afterPath="$PROJECT_DIR$/assets/images/Afwillite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Agardite-(Y), Agardite-(Ce), Agardite-(Nd), Agardite-(La).jpg" afterPath="$PROJECT_DIR$/assets/images/Agardite-(Y), Agardite-(Ce), Agardite-(Nd), Agardite-(La).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Agrellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Agrellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aguilarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aguilarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aheylite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aheylite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aikinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aikinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ajoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ajoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Akaganeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Akaganeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alabandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alabandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alamosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alamosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Albite.jpg" afterPath="$PROJECT_DIR$/assets/images/Albite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Algodonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Algodonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aliettite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aliettite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Allactite.jpg" afterPath="$PROJECT_DIR$/assets/images/Allactite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Allanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Allanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Allanpringite.jpg" afterPath="$PROJECT_DIR$/assets/images/Allanpringite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Allargentum.jpg" afterPath="$PROJECT_DIR$/assets/images/Allargentum.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alleghanyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alleghanyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Allophane.jpg" afterPath="$PROJECT_DIR$/assets/images/Allophane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alluaudite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alluaudite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Almandine.jpg" afterPath="$PROJECT_DIR$/assets/images/Almandine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alstonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alstonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Altaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Altaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alum-(K).jpg" afterPath="$PROJECT_DIR$/assets/images/Alum-(K).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aluminite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aluminite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Alunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Alunogen.jpg" afterPath="$PROJECT_DIR$/assets/images/Alunogen.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Amarantite.jpg" afterPath="$PROJECT_DIR$/assets/images/Amarantite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Amblygonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Amblygonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Amesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Amesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Analcime.jpg" afterPath="$PROJECT_DIR$/assets/images/Analcime.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anapaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Anapaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anatase.jpg" afterPath="$PROJECT_DIR$/assets/images/Anatase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ancylite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ancylite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andalusite.jpg" afterPath="$PROJECT_DIR$/assets/images/Andalusite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andersonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Andersonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andesine.jpg" afterPath="$PROJECT_DIR$/assets/images/Andesine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Andorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andradite.jpg" afterPath="$PROJECT_DIR$/assets/images/Andradite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Andyrobertsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Andyrobertsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anglesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Anglesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anhydrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Anhydrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ankerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ankerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Annabergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Annabergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Annite.jpg" afterPath="$PROJECT_DIR$/assets/images/Annite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anorthite.jpg" afterPath="$PROJECT_DIR$/assets/images/Anorthite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anorthoclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Anorthoclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Anthophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Anthophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Antlerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Antlerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Apatite group.jpg" afterPath="$PROJECT_DIR$/assets/images/Apatite group.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aphthitalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aphthitalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Apophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Apophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aragonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aragonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arcanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arcanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ardaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ardaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arfvedsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arfvedsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Argyrodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Argyrodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Armalcolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Armalcolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arseniosiderite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arseniosiderite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arsenolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arsenolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arsenopyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arsenopyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Arthurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Arthurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Artinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Artinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Artroeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Artroeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Asisite.jpg" afterPath="$PROJECT_DIR$/assets/images/Asisite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Astrophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Astrophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Atacamite.jpg" afterPath="$PROJECT_DIR$/assets/images/Atacamite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Augelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Augelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Augite.jpg" afterPath="$PROJECT_DIR$/assets/images/Augite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Aurichalcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Aurichalcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Auricupride.jpg" afterPath="$PROJECT_DIR$/assets/images/Auricupride.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Austinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Austinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Autunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Autunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Avogadrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Avogadrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Awaruite.jpg" afterPath="$PROJECT_DIR$/assets/images/Awaruite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Axinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Axinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Azurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Azurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Babingtonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Babingtonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Baddeleyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Baddeleyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bakerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bakerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Barrerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Barrerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Barstowite.jpg" afterPath="$PROJECT_DIR$/assets/images/Barstowite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Baryte (barite).jpg" afterPath="$PROJECT_DIR$/assets/images/Baryte (barite).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Barytocalcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Barytocalcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bastn%E4site, bastnaesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bastn%E4site, bastnaesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Baumhauerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Baumhauerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bayldonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bayldonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bayleyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bayleyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Becquerelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Becquerelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Benitoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Benitoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Benstonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Benstonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Beraunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Beraunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bergenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bergenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Berlinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Berlinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Berthierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Berthierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bertrandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bertrandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Beryl.jpg" afterPath="$PROJECT_DIR$/assets/images/Beryl.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Beryllonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Beryllonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Beudantite.jpg" afterPath="$PROJECT_DIR$/assets/images/Beudantite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bicchulite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bicchulite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Billietite.jpg" afterPath="$PROJECT_DIR$/assets/images/Billietite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Biotite.jpg" afterPath="$PROJECT_DIR$/assets/images/Biotite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Birnessite.jpg" afterPath="$PROJECT_DIR$/assets/images/Birnessite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bischofite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bischofite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bismite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bismite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bismuthinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bismuthinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bismutite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bismutite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bixbyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bixbyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bl%F6dite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bl%F6dite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Boehmite.jpg" afterPath="$PROJECT_DIR$/assets/images/Boehmite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Boleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Boleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Boltwoodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Boltwoodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Boracite.jpg" afterPath="$PROJECT_DIR$/assets/images/Boracite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bornite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bornite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Botallackite.jpg" afterPath="$PROJECT_DIR$/assets/images/Botallackite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Botryogen.jpg" afterPath="$PROJECT_DIR$/assets/images/Botryogen.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Boulangerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Boulangerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bournonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bournonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Braunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Braunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brazilianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brazilianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Breithauptite.jpg" afterPath="$PROJECT_DIR$/assets/images/Breithauptite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brewsterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brewsterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brianyoungite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brianyoungite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brochantite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brochantite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bromargyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bromargyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brookite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brookite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brownmillerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brownmillerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brucite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brucite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Brushite.jpg" afterPath="$PROJECT_DIR$/assets/images/Brushite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bukovskyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bukovskyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bultfonteinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bultfonteinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bunsenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bunsenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Bustamite.jpg" afterPath="$PROJECT_DIR$/assets/images/Bustamite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cacoxenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cacoxenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cadmoindite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cadmoindite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cafarsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cafarsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cahnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cahnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Calaverite.jpg" afterPath="$PROJECT_DIR$/assets/images/Calaverite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Calcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Calcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Caledonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Caledonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Calumetite.jpg" afterPath="$PROJECT_DIR$/assets/images/Calumetite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cancrinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cancrinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Canfieldite.jpg" afterPath="$PROJECT_DIR$/assets/images/Canfieldite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carletonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carletonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carlsbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carlsbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carminite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carminite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carnallite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carnallite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carnotite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carnotite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carpathite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carpathite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carpholite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carpholite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Carrollite.jpg" afterPath="$PROJECT_DIR$/assets/images/Carrollite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Caryopilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Caryopilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cassiterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cassiterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cavansite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cavansite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Celadonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Celadonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Celestine.jpg" afterPath="$PROJECT_DIR$/assets/images/Celestine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Celsian.jpg" afterPath="$PROJECT_DIR$/assets/images/Celsian.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cerussite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cerussite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cervantite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cervantite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chabazite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chabazite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chalcanthite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chalcanthite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chalcocite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chalcocite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chalcophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chalcophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chalcopyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chalcopyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chambersite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chambersite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chamosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chamosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chapmanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chapmanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Charoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Charoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chesterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chesterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Childrenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Childrenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chlorargyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chlorargyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chlorite group.jpg" afterPath="$PROJECT_DIR$/assets/images/Chlorite group.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chloritoid.jpg" afterPath="$PROJECT_DIR$/assets/images/Chloritoid.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chlormayenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chlormayenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chloroxiphite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chloroxiphite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chondrodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chondrodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chromite.jpg" afterPath="$PROJECT_DIR$/assets/images/Chromite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chrysoberyl.jpg" afterPath="$PROJECT_DIR$/assets/images/Chrysoberyl.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chrysocolla.jpg" afterPath="$PROJECT_DIR$/assets/images/Chrysocolla.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Chrysotile.jpg" afterPath="$PROJECT_DIR$/assets/images/Chrysotile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cinnabar.jpg" afterPath="$PROJECT_DIR$/assets/images/Cinnabar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clausthalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clausthalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clinoclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Clinoclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clinodehrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clinodehrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clinohumite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clinohumite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clinoptilolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clinoptilolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clinozoisite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clinozoisite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Clintonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Clintonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cobaltite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cobaltite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Coccinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Coccinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Coesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Coesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Coffinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Coffinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Colemanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Colemanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Collinsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Collinsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Coloradoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Coloradoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Columbite-(Fe).jpg" afterPath="$PROJECT_DIR$/assets/images/Columbite-(Fe).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Conichalcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Conichalcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Connellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Connellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Copiapite.jpg" afterPath="$PROJECT_DIR$/assets/images/Copiapite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Copper.jpg" afterPath="$PROJECT_DIR$/assets/images/Copper.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Corderoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Corderoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cordierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cordierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cornubite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cornubite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cornwallite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cornwallite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Corundum.jpg" afterPath="$PROJECT_DIR$/assets/images/Corundum.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cotunnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cotunnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Covellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Covellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Creedite.jpg" afterPath="$PROJECT_DIR$/assets/images/Creedite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cristobalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cristobalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Crocoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Crocoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cronstedtite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cronstedtite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Crossite.jpg" afterPath="$PROJECT_DIR$/assets/images/Crossite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cryolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cryolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cryptomelane.jpg" afterPath="$PROJECT_DIR$/assets/images/Cryptomelane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cubanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cubanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cummingtonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cummingtonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cuprite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cuprite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cuprosklodowskite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cuprosklodowskite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Curite.jpg" afterPath="$PROJECT_DIR$/assets/images/Curite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cyanotrichite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cyanotrichite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cylindrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cylindrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Cyrilovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Cyrilovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Danalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Danalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Danburite.jpg" afterPath="$PROJECT_DIR$/assets/images/Danburite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Datolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Datolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Daubr%E9elite.jpg" afterPath="$PROJECT_DIR$/assets/images/Daubr%E9elite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Davidite-(La).jpg" afterPath="$PROJECT_DIR$/assets/images/Davidite-(La).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dawsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dawsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Delafossite.jpg" afterPath="$PROJECT_DIR$/assets/images/Delafossite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Demesmaekerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Demesmaekerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Derriksite.jpg" afterPath="$PROJECT_DIR$/assets/images/Derriksite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Descloizite.jpg" afterPath="$PROJECT_DIR$/assets/images/Descloizite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Devilline.jpg" afterPath="$PROJECT_DIR$/assets/images/Devilline.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Diaboleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Diaboleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Diadochite.jpg" afterPath="$PROJECT_DIR$/assets/images/Diadochite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Diamond.jpg" afterPath="$PROJECT_DIR$/assets/images/Diamond.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Diaspore.jpg" afterPath="$PROJECT_DIR$/assets/images/Diaspore.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dickite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dickite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Digenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Digenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Diopside.jpg" afterPath="$PROJECT_DIR$/assets/images/Diopside.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dioptase.jpg" afterPath="$PROJECT_DIR$/assets/images/Dioptase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Djurleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Djurleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dollaseite-(Ce).jpg" afterPath="$PROJECT_DIR$/assets/images/Dollaseite-(Ce).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dolomite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dolomite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Domeykite.jpg" afterPath="$PROJECT_DIR$/assets/images/Domeykite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Duftite.jpg" afterPath="$PROJECT_DIR$/assets/images/Duftite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dumortierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dumortierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dundasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dundasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Dyscrasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Dyscrasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Edenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Edenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Edingtonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Edingtonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Elbaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Elbaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Emmonsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Emmonsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Enargite.jpg" afterPath="$PROJECT_DIR$/assets/images/Enargite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Enstatite.jpg" afterPath="$PROJECT_DIR$/assets/images/Enstatite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Eosphorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Eosphorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ephesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ephesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Epidote.jpg" afterPath="$PROJECT_DIR$/assets/images/Epidote.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Epsomite.jpg" afterPath="$PROJECT_DIR$/assets/images/Epsomite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Erionite-Na.jpg" afterPath="$PROJECT_DIR$/assets/images/Erionite-Na.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Erythrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Erythrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Eskolaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Eskolaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Esperite.jpg" afterPath="$PROJECT_DIR$/assets/images/Esperite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ettringite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ettringite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Euchroite.jpg" afterPath="$PROJECT_DIR$/assets/images/Euchroite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Euclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Euclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Eucryptite.jpg" afterPath="$PROJECT_DIR$/assets/images/Eucryptite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Eudialyte.jpg" afterPath="$PROJECT_DIR$/assets/images/Eudialyte.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Euxenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Euxenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Evenkite.jpg" afterPath="$PROJECT_DIR$/assets/images/Evenkite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Faujasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Faujasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fayalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fayalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Feldspar.jpg" afterPath="$PROJECT_DIR$/assets/images/Feldspar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ferberite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ferberite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fergusonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fergusonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ferrierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ferrierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ferrihydrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ferrihydrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ferrimolybdite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ferrimolybdite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fettelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fettelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluckite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluckite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluor-buergerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluor-buergerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluor-liddicoatite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluor-liddicoatite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluor-uvite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluor-uvite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluorapatite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluorapatite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluorapophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluorapophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluorellestadite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluorellestadite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fluororichterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fluororichterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fornacite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fornacite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Forsterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Forsterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fourmarierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fourmarierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Fraipontite.jpg" afterPath="$PROJECT_DIR$/assets/images/Fraipontite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Francevillite.jpg" afterPath="$PROJECT_DIR$/assets/images/Francevillite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Franckeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Franckeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Franklinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Franklinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Freibergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Freibergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Freieslebenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Freieslebenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gadolinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gadolinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gahnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gahnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Galena (lead glance).jpg" afterPath="$PROJECT_DIR$/assets/images/Galena (lead glance).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Galkhaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Galkhaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Garnet.jpg" afterPath="$PROJECT_DIR$/assets/images/Garnet.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gaspeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gaspeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gaylussite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gaylussite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gehlenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gehlenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Geikielite.jpg" afterPath="$PROJECT_DIR$/assets/images/Geikielite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Geocronite.jpg" afterPath="$PROJECT_DIR$/assets/images/Geocronite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Germanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Germanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gersdorffite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gersdorffite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Getchellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Getchellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gibbsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gibbsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gilalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gilalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Glauberite.jpg" afterPath="$PROJECT_DIR$/assets/images/Glauberite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Glaucodot.jpg" afterPath="$PROJECT_DIR$/assets/images/Glaucodot.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Glauconite.jpg" afterPath="$PROJECT_DIR$/assets/images/Glauconite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Glaucophane.jpg" afterPath="$PROJECT_DIR$/assets/images/Glaucophane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gmelinite-Na.jpg" afterPath="$PROJECT_DIR$/assets/images/Gmelinite-Na.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Goethite.jpg" afterPath="$PROJECT_DIR$/assets/images/Goethite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gonnardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gonnardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gormanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gormanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Goslarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Goslarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Graftonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Graftonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Grandidierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Grandidierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Graphite.jpg" afterPath="$PROJECT_DIR$/assets/images/Graphite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gratonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Gratonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Greenockite.jpg" afterPath="$PROJECT_DIR$/assets/images/Greenockite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Greifensteinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Greifensteinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Greigite.jpg" afterPath="$PROJECT_DIR$/assets/images/Greigite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Grossular.jpg" afterPath="$PROJECT_DIR$/assets/images/Grossular.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Groutite.jpg" afterPath="$PROJECT_DIR$/assets/images/Groutite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Grunerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Grunerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Gypsum.jpg" afterPath="$PROJECT_DIR$/assets/images/Gypsum.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ha%FCyne.jpg" afterPath="$PROJECT_DIR$/assets/images/Ha%FCyne.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hagendorfite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hagendorfite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Haiweeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Haiweeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Halite.jpg" afterPath="$PROJECT_DIR$/assets/images/Halite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Halloysite.jpg" afterPath="$PROJECT_DIR$/assets/images/Halloysite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Halotrichite.jpg" afterPath="$PROJECT_DIR$/assets/images/Halotrichite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hambergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hambergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hanksite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hanksite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hardystonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hardystonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Harmotome.jpg" afterPath="$PROJECT_DIR$/assets/images/Harmotome.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hauerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hauerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hausmannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hausmannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hawleyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hawleyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Heazlewoodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Heazlewoodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hectorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hectorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hedenbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hedenbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hellyerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hellyerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hematite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hematite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hemimorphite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hemimorphite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hemusite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hemusite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Herbertsmithite.jpg" afterPath="$PROJECT_DIR$/assets/images/Herbertsmithite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hercynite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hercynite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Herderite.jpg" afterPath="$PROJECT_DIR$/assets/images/Herderite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hessite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hessite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Heulandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Heulandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hibonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hibonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hidalgoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hidalgoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hilgardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hilgardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hodgkinsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hodgkinsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hoelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hoelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hollandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hollandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Holmquistite.jpg" afterPath="$PROJECT_DIR$/assets/images/Holmquistite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hopeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hopeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hornblende.jpg" afterPath="$PROJECT_DIR$/assets/images/Hornblende.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Howlite.jpg" afterPath="$PROJECT_DIR$/assets/images/Howlite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hsianghualite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hsianghualite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hubeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hubeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hubnerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hubnerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Humite.jpg" afterPath="$PROJECT_DIR$/assets/images/Humite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hureaulite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hureaulite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hutchinsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hutchinsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Huttonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Huttonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydroboracite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydroboracite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydrogrossular.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydrogrossular.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydrokenoelsmoreite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydrokenoelsmoreite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydromagnesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydromagnesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydrotalcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydrotalcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydroxylapatite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydroxylapatite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Hydrozincite.jpg" afterPath="$PROJECT_DIR$/assets/images/Hydrozincite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Idrialite.jpg" afterPath="$PROJECT_DIR$/assets/images/Idrialite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ikaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ikaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Illite.jpg" afterPath="$PROJECT_DIR$/assets/images/Illite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ilmenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ilmenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ilvaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ilvaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Inyoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Inyoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Iodargyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Iodargyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Iron, native iron or telluric iron.jpg" afterPath="$PROJECT_DIR$/assets/images/Iron, native iron or telluric iron.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jacobsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jacobsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jadarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jadarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jadeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jadeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jalpaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jalpaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jamesonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jamesonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jarosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jarosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jennite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jennite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jeremejevite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jeremejevite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jimthompsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jimthompsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Johannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Johannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jordanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jordanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Julgoldite.jpg" afterPath="$PROJECT_DIR$/assets/images/Julgoldite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Junitoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Junitoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Jurbanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Jurbanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/K%F6ttigite.jpg" afterPath="$PROJECT_DIR$/assets/images/K%F6ttigite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kainite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kainite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kainosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kainosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kalinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kalinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kamacite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kamacite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kambaldaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kambaldaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kampfite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kampfite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kaolinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kaolinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kegelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kegelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kermesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kermesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kernite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kernite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kesterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kesterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Keyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Keyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kieserite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kieserite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kinoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kinoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kogarkoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kogarkoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kolbeckite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kolbeckite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kornerupine.jpg" afterPath="$PROJECT_DIR$/assets/images/Kornerupine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kovdorskite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kovdorskite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kr%F6hnkite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kr%F6hnkite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Krennerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Krennerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Krieselite.jpg" afterPath="$PROJECT_DIR$/assets/images/Krieselite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kurnakovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kurnakovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kutnohorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kutnohorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Kyanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Kyanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/L%E9vyne.jpg" afterPath="$PROJECT_DIR$/assets/images/L%E9vyne.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Labradorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Labradorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lanarkite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lanarkite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Langbeinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Langbeinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Langite.jpg" afterPath="$PROJECT_DIR$/assets/images/Langite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lanthanite-(La), Lanthanite-(Nd), Lanthanite-(Ce).jpg" afterPath="$PROJECT_DIR$/assets/images/Lanthanite-(La), Lanthanite-(Nd), Lanthanite-(Ce).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Laumontite.jpg" afterPath="$PROJECT_DIR$/assets/images/Laumontite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Laurionite.jpg" afterPath="$PROJECT_DIR$/assets/images/Laurionite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lavendulan.jpg" afterPath="$PROJECT_DIR$/assets/images/Lavendulan.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lawsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lawsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lazulite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lazulite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lazurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lazurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Leadhillite.jpg" afterPath="$PROJECT_DIR$/assets/images/Leadhillite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Legrandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Legrandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Leifite.jpg" afterPath="$PROJECT_DIR$/assets/images/Leifite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Leightonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Leightonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lepidocrocite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lepidocrocite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lepidolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lepidolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Leucite.jpg" afterPath="$PROJECT_DIR$/assets/images/Leucite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Leucophoenicite.jpg" afterPath="$PROJECT_DIR$/assets/images/Leucophoenicite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Libethenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Libethenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Liebigite.jpg" afterPath="$PROJECT_DIR$/assets/images/Liebigite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Linarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Linarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lindgrenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lindgrenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Linnaeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Linnaeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lipscombite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lipscombite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Liroconite.jpg" afterPath="$PROJECT_DIR$/assets/images/Liroconite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lithiophilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lithiophilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Livingstonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Livingstonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Loellingite.jpg" afterPath="$PROJECT_DIR$/assets/images/Loellingite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lonsdaleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lonsdaleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Loparite-(Ce).jpg" afterPath="$PROJECT_DIR$/assets/images/Loparite-(Ce).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lopezite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lopezite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lor%E1ndite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lor%E1ndite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Lorenzenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Lorenzenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ludlamite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ludlamite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ludwigite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ludwigite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Macdonaldite.jpg" afterPath="$PROJECT_DIR$/assets/images/Macdonaldite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mackinawite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mackinawite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Maghemite.jpg" afterPath="$PROJECT_DIR$/assets/images/Maghemite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Magnesioferrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Magnesioferrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Magnesiohastingsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Magnesiohastingsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Magnesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Magnesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Magnetite.jpg" afterPath="$PROJECT_DIR$/assets/images/Magnetite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Malachite.jpg" afterPath="$PROJECT_DIR$/assets/images/Malachite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Manganite.jpg" afterPath="$PROJECT_DIR$/assets/images/Manganite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Manganosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Manganosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Manganvesuvianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Manganvesuvianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Marcasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Marcasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Margarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Margarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Marialite.jpg" afterPath="$PROJECT_DIR$/assets/images/Marialite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Maricite.jpg" afterPath="$PROJECT_DIR$/assets/images/Maricite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Marrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Marrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Marthozite.jpg" afterPath="$PROJECT_DIR$/assets/images/Marthozite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mascagnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mascagnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Massicot.jpg" afterPath="$PROJECT_DIR$/assets/images/Massicot.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Masuyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Masuyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Matlockite.jpg" afterPath="$PROJECT_DIR$/assets/images/Matlockite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Maucherite.jpg" afterPath="$PROJECT_DIR$/assets/images/Maucherite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Meionite.jpg" afterPath="$PROJECT_DIR$/assets/images/Meionite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Melanophlogite.jpg" afterPath="$PROJECT_DIR$/assets/images/Melanophlogite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Melanterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Melanterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Melilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Melilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Melonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Melonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mendipite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mendipite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Meneghinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Meneghinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Meridianiite.jpg" afterPath="$PROJECT_DIR$/assets/images/Meridianiite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mesolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mesolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Messelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Messelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Metacinnabar.jpg" afterPath="$PROJECT_DIR$/assets/images/Metacinnabar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Metatorbernite.jpg" afterPath="$PROJECT_DIR$/assets/images/Metatorbernite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Metazeunerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Metazeunerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Meyerhofferite.jpg" afterPath="$PROJECT_DIR$/assets/images/Meyerhofferite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Miargyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Miargyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mica.jpg" afterPath="$PROJECT_DIR$/assets/images/Mica.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Microlite.jpg" afterPath="$PROJECT_DIR$/assets/images/Microlite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Millerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Millerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mimetite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mimetite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Minium.jpg" afterPath="$PROJECT_DIR$/assets/images/Minium.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Minyulite.jpg" afterPath="$PROJECT_DIR$/assets/images/Minyulite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mirabilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mirabilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mixite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mixite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Moissanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Moissanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Molybdenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Molybdenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Molybdite.jpg" afterPath="$PROJECT_DIR$/assets/images/Molybdite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Monazite.jpg" afterPath="$PROJECT_DIR$/assets/images/Monazite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Monohydrocalcite.jpg" afterPath="$PROJECT_DIR$/assets/images/Monohydrocalcite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Monticellite-Kirschsteinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Monticellite-Kirschsteinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Montmorillonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Montmorillonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Moolooite.jpg" afterPath="$PROJECT_DIR$/assets/images/Moolooite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mordenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mordenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Moschellandsbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Moschellandsbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mottramite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mottramite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Motukoreaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Motukoreaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Mullite.jpg" afterPath="$PROJECT_DIR$/assets/images/Mullite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Murdochite.jpg" afterPath="$PROJECT_DIR$/assets/images/Murdochite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Muscovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Muscovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/N%E9pouite.jpg" afterPath="$PROJECT_DIR$/assets/images/N%E9pouite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nacrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nacrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nadorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nadorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nagy%E1gite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nagy%E1gite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nahcolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nahcolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nambulite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nambulite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Narsarsukite.jpg" afterPath="$PROJECT_DIR$/assets/images/Narsarsukite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Natrolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Natrolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Natrophilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Natrophilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nelenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nelenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nenadkevichite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nenadkevichite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nepheline.jpg" afterPath="$PROJECT_DIR$/assets/images/Nepheline.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Neptunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Neptunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nickeline.jpg" afterPath="$PROJECT_DIR$/assets/images/Nickeline.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Niedermayrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Niedermayrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nissonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nissonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Niter.jpg" afterPath="$PROJECT_DIR$/assets/images/Niter.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nitratine.jpg" afterPath="$PROJECT_DIR$/assets/images/Nitratine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nobleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nobleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nontronite.jpg" afterPath="$PROJECT_DIR$/assets/images/Nontronite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Norbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Norbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Northupite.jpg" afterPath="$PROJECT_DIR$/assets/images/Northupite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Nosean.jpg" afterPath="$PROJECT_DIR$/assets/images/Nosean.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Okenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Okenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Olivenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Olivenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Olivine.jpg" afterPath="$PROJECT_DIR$/assets/images/Olivine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Orpiment.jpg" afterPath="$PROJECT_DIR$/assets/images/Orpiment.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Orthoclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Orthoclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Osarizawaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Osarizawaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Osumilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Osumilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Otavite.jpg" afterPath="$PROJECT_DIR$/assets/images/Otavite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ottrelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ottrelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/P%E4%E4kk%F6nenite.jpg" afterPath="$PROJECT_DIR$/assets/images/P%E4%E4kk%F6nenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Painite.jpg" afterPath="$PROJECT_DIR$/assets/images/Painite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Palygorskite.jpg" afterPath="$PROJECT_DIR$/assets/images/Palygorskite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Papagoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Papagoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Paragonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Paragonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Paralaurionite.jpg" afterPath="$PROJECT_DIR$/assets/images/Paralaurionite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Paramelaconite.jpg" afterPath="$PROJECT_DIR$/assets/images/Paramelaconite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pararealgar.jpg" afterPath="$PROJECT_DIR$/assets/images/Pararealgar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pargasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pargasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Parisite.jpg" afterPath="$PROJECT_DIR$/assets/images/Parisite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Parsonsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Parsonsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pascoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pascoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Patronite.jpg" afterPath="$PROJECT_DIR$/assets/images/Patronite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pearcbuteite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pearcbuteite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pecoraite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pecoraite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pectolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pectolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Penroseite.jpg" afterPath="$PROJECT_DIR$/assets/images/Penroseite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pentagonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pentagonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pentlandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pentlandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Perhamite.jpg" afterPath="$PROJECT_DIR$/assets/images/Perhamite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Periclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Periclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Perite.jpg" afterPath="$PROJECT_DIR$/assets/images/Perite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Perovskite.jpg" afterPath="$PROJECT_DIR$/assets/images/Perovskite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Petalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Petalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Petzite.jpg" afterPath="$PROJECT_DIR$/assets/images/Petzite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pezzottaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pezzottaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pharmacolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pharmacolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pharmacosiderite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pharmacosiderite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phenakite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phenakite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phillipsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phillipsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phlogopite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phlogopite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phoenicochroite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phoenicochroite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phosgenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phosgenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phosphophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phosphophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Phosphuranylite.jpg" afterPath="$PROJECT_DIR$/assets/images/Phosphuranylite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pickeringite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pickeringite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Picropharmacolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Picropharmacolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Piemontite.jpg" afterPath="$PROJECT_DIR$/assets/images/Piemontite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pigeonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pigeonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pinnoite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pinnoite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Plagioclase.jpg" afterPath="$PROJECT_DIR$/assets/images/Plagioclase.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Plancheite.jpg" afterPath="$PROJECT_DIR$/assets/images/Plancheite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Plattnerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Plattnerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Plumbogummite.jpg" afterPath="$PROJECT_DIR$/assets/images/Plumbogummite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pollucite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pollucite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Polybasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Polybasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Polyhalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Polyhalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Portlandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Portlandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Posnjakite.jpg" afterPath="$PROJECT_DIR$/assets/images/Posnjakite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Poudretteite.jpg" afterPath="$PROJECT_DIR$/assets/images/Poudretteite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Powellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Powellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Prehnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Prehnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Proustite.jpg" afterPath="$PROJECT_DIR$/assets/images/Proustite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pseudobrookite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pseudobrookite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pseudomalachite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pseudomalachite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pumpellyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pumpellyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Purpurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Purpurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Putnisite.jpg" afterPath="$PROJECT_DIR$/assets/images/Putnisite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrargyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrargyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrochlore.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrochlore.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrolusite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrolusite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyromorphite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyromorphite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrope.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrope.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrophanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrophanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyroxferroite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyroxferroite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyroxmangite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyroxmangite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Pyrrhotite.jpg" afterPath="$PROJECT_DIR$/assets/images/Pyrrhotite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rammelsbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rammelsbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rapidcreekite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rapidcreekite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Raspite.jpg" afterPath="$PROJECT_DIR$/assets/images/Raspite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Realgar.jpg" afterPath="$PROJECT_DIR$/assets/images/Realgar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Renierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Renierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rheniite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rheniite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rhodochrosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rhodochrosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rhodonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rhodonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Richterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Richterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rickardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rickardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Riebeckite.jpg" afterPath="$PROJECT_DIR$/assets/images/Riebeckite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ringwoodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ringwoodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Robertsite.jpg" afterPath="$PROJECT_DIR$/assets/images/Robertsite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rodalquilarite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rodalquilarite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Roman%E8chite.jpg" afterPath="$PROJECT_DIR$/assets/images/Roman%E8chite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Romeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Romeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rosasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rosasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Roselite.jpg" afterPath="$PROJECT_DIR$/assets/images/Roselite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rozenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Rozenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ruizite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ruizite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rutherfordine.jpg" afterPath="$PROJECT_DIR$/assets/images/Rutherfordine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Rutile.jpg" afterPath="$PROJECT_DIR$/assets/images/Rutile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sabinaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sabinaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Safflorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Safflorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sal ammoniac.jpg" afterPath="$PROJECT_DIR$/assets/images/Sal ammoniac.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Saleeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Saleeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Samarskite-(Y).jpg" afterPath="$PROJECT_DIR$/assets/images/Samarskite-(Y).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sampleite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sampleite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Samsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Samsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sanbornite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sanbornite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sanidine.jpg" afterPath="$PROJECT_DIR$/assets/images/Sanidine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Santabarbaraite.jpg" afterPath="$PROJECT_DIR$/assets/images/Santabarbaraite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Saponite.jpg" afterPath="$PROJECT_DIR$/assets/images/Saponite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sapphirine.jpg" afterPath="$PROJECT_DIR$/assets/images/Sapphirine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sarkinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sarkinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sassolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sassolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Satterlyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Satterlyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Scapolite group.jpg" afterPath="$PROJECT_DIR$/assets/images/Scapolite group.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Scheelite.jpg" afterPath="$PROJECT_DIR$/assets/images/Scheelite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Schmiederite.jpg" afterPath="$PROJECT_DIR$/assets/images/Schmiederite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Schoepite.jpg" afterPath="$PROJECT_DIR$/assets/images/Schoepite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Schr%F6ckingerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Schr%F6ckingerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Schreibersite.jpg" afterPath="$PROJECT_DIR$/assets/images/Schreibersite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Scolecite.jpg" afterPath="$PROJECT_DIR$/assets/images/Scolecite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Scorodite.jpg" afterPath="$PROJECT_DIR$/assets/images/Scorodite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Scorzalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Scorzalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Seamanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Seamanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Searlesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Searlesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Seeligerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Seeligerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Seifertite.jpg" afterPath="$PROJECT_DIR$/assets/images/Seifertite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Seligmannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Seligmannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sellaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sellaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Semseyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Semseyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sepiolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sepiolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Serandite.jpg" afterPath="$PROJECT_DIR$/assets/images/Serandite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Serendibite.jpg" afterPath="$PROJECT_DIR$/assets/images/Serendibite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Serpierite.jpg" afterPath="$PROJECT_DIR$/assets/images/Serpierite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Shattuckite.jpg" afterPath="$PROJECT_DIR$/assets/images/Shattuckite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Shigaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Shigaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Shortite.jpg" afterPath="$PROJECT_DIR$/assets/images/Shortite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Siderite.jpg" afterPath="$PROJECT_DIR$/assets/images/Siderite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Siderophyllite.jpg" afterPath="$PROJECT_DIR$/assets/images/Siderophyllite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Siegenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Siegenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sillimanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sillimanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Simpsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Simpsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sincosite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sincosite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sinkankasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sinkankasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sklodowskite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sklodowskite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Skutterudite.jpg" afterPath="$PROJECT_DIR$/assets/images/Skutterudite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Smithsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Smithsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sodalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sodalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Soddyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Soddyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sonolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sonolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sperrylite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sperrylite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spertiniite.jpg" afterPath="$PROJECT_DIR$/assets/images/Spertiniite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spessartine.jpg" afterPath="$PROJECT_DIR$/assets/images/Spessartine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sphalerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sphalerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spherocobaltite.jpg" afterPath="$PROJECT_DIR$/assets/images/Spherocobaltite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spinel.jpg" afterPath="$PROJECT_DIR$/assets/images/Spinel.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spodumene.jpg" afterPath="$PROJECT_DIR$/assets/images/Spodumene.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Spurrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Spurrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/St%FCtzite.jpg" afterPath="$PROJECT_DIR$/assets/images/St%FCtzite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Staurolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Staurolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Steacyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Steacyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stellerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stellerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stephanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stephanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stibarsen.jpg" afterPath="$PROJECT_DIR$/assets/images/Stibarsen.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stibiconite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stibiconite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stibiopalladinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stibiopalladinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stibnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stibnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stichtite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stichtite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stilbite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stilbite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stilpnomelane.jpg" afterPath="$PROJECT_DIR$/assets/images/Stilpnomelane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stolzite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stolzite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Strashimirite.jpg" afterPath="$PROJECT_DIR$/assets/images/Strashimirite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Strengite.jpg" afterPath="$PROJECT_DIR$/assets/images/Strengite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Stromeyerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Stromeyerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Strontianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Strontianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Struvite.jpg" afterPath="$PROJECT_DIR$/assets/images/Struvite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Studtite.jpg" afterPath="$PROJECT_DIR$/assets/images/Studtite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sugilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sugilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Susannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Susannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sussexite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sussexite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Svanbergite.jpg" afterPath="$PROJECT_DIR$/assets/images/Svanbergite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Switzerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Switzerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sylvanite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sylvanite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Sylvite.jpg" afterPath="$PROJECT_DIR$/assets/images/Sylvite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Syngenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Syngenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Taaffeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Taaffeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Taenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Taenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Talc.jpg" afterPath="$PROJECT_DIR$/assets/images/Talc.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Talmesite.jpg" afterPath="$PROJECT_DIR$/assets/images/Talmesite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Talnakhite.jpg" afterPath="$PROJECT_DIR$/assets/images/Talnakhite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tangeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tangeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tantalite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tantalite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tapiolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tapiolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Taranakite.jpg" afterPath="$PROJECT_DIR$/assets/images/Taranakite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tarbuttite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tarbuttite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tausonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tausonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Teallite.jpg" afterPath="$PROJECT_DIR$/assets/images/Teallite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tellurite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tellurite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tennantite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tennantite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tenorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tenorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tephroite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tephroite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Terlinguaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Terlinguaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tetradymite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tetradymite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tetrahedrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tetrahedrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thaumasite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thaumasite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thenardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thenardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thermonatrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thermonatrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thomasclarkite-(Y).jpg" afterPath="$PROJECT_DIR$/assets/images/Thomasclarkite-(Y).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thomsenolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thomsenolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thomsonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thomsonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thorianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thorianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Thortveitite.jpg" afterPath="$PROJECT_DIR$/assets/images/Thortveitite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tiemannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tiemannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tincalconite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tincalconite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Titanite (Sphene).jpg" afterPath="$PROJECT_DIR$/assets/images/Titanite (Sphene).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tobermorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tobermorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Todorokite.jpg" afterPath="$PROJECT_DIR$/assets/images/Todorokite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Topaz.jpg" afterPath="$PROJECT_DIR$/assets/images/Topaz.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Torbernite.jpg" afterPath="$PROJECT_DIR$/assets/images/Torbernite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tourmaline.jpg" afterPath="$PROJECT_DIR$/assets/images/Tourmaline.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tremolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tremolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tridymite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tridymite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Triplite.jpg" afterPath="$PROJECT_DIR$/assets/images/Triplite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Triploidite.jpg" afterPath="$PROJECT_DIR$/assets/images/Triploidite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Troilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Troilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Trona.jpg" afterPath="$PROJECT_DIR$/assets/images/Trona.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tschermakite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tschermakite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tschermigite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tschermigite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tsumcorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tsumcorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tsumebite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tsumebite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tugtupite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tugtupite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tungstite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tungstite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tuperssuatsiaite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tuperssuatsiaite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Turquoise.jpg" afterPath="$PROJECT_DIR$/assets/images/Turquoise.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tyrolite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tyrolite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Tyuyamunite.jpg" afterPath="$PROJECT_DIR$/assets/images/Tyuyamunite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ulexite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ulexite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ullmannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ullmannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Ulrichite.jpg" afterPath="$PROJECT_DIR$/assets/images/Ulrichite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Umangite.jpg" afterPath="$PROJECT_DIR$/assets/images/Umangite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uraninite.jpg" afterPath="$PROJECT_DIR$/assets/images/Uraninite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uranocircite.jpg" afterPath="$PROJECT_DIR$/assets/images/Uranocircite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uranophane.jpg" afterPath="$PROJECT_DIR$/assets/images/Uranophane.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uranopilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Uranopilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uvarovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Uvarovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Uytenbogaardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Uytenbogaardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Valentinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Valentinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Valleriite.jpg" afterPath="$PROJECT_DIR$/assets/images/Valleriite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vanadinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vanadinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Variscite.jpg" afterPath="$PROJECT_DIR$/assets/images/Variscite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vaterite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vaterite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vauquelinite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vauquelinite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vauxite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vauxite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Veatchite.jpg" afterPath="$PROJECT_DIR$/assets/images/Veatchite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vermiculite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vermiculite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vesuvianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vesuvianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Villiaumite.jpg" afterPath="$PROJECT_DIR$/assets/images/Villiaumite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vishnevite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vishnevite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vivianite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vivianite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vladimirite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vladimirite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Vlasovite.jpg" afterPath="$PROJECT_DIR$/assets/images/Vlasovite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Volborthite.jpg" afterPath="$PROJECT_DIR$/assets/images/Volborthite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wakabayashilite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wakabayashilite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wakefieldite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wakefieldite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Walfordite.jpg" afterPath="$PROJECT_DIR$/assets/images/Walfordite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wardite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wardite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Warikahnite.jpg" afterPath="$PROJECT_DIR$/assets/images/Warikahnite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Warwickite.jpg" afterPath="$PROJECT_DIR$/assets/images/Warwickite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wavellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wavellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Weddellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Weddellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Weloganite.jpg" afterPath="$PROJECT_DIR$/assets/images/Weloganite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Whewellite.jpg" afterPath="$PROJECT_DIR$/assets/images/Whewellite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Whiteite.jpg" afterPath="$PROJECT_DIR$/assets/images/Whiteite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Whitlockite.jpg" afterPath="$PROJECT_DIR$/assets/images/Whitlockite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wikipedia-icon.png" afterPath="$PROJECT_DIR$/assets/images/Wikipedia-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Willemite.jpg" afterPath="$PROJECT_DIR$/assets/images/Willemite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wiluite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wiluite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Witherite.jpg" afterPath="$PROJECT_DIR$/assets/images/Witherite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wodginite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wodginite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wolframite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wolframite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wollastonite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wollastonite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Woodhouseite.jpg" afterPath="$PROJECT_DIR$/assets/images/Woodhouseite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wulfenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wulfenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Wurtzite.jpg" afterPath="$PROJECT_DIR$/assets/images/Wurtzite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Xenotime.jpg" afterPath="$PROJECT_DIR$/assets/images/Xenotime.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Xocomecatlite.jpg" afterPath="$PROJECT_DIR$/assets/images/Xocomecatlite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Xonotlite.jpg" afterPath="$PROJECT_DIR$/assets/images/Xonotlite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Za%EFrite.jpg" afterPath="$PROJECT_DIR$/assets/images/Za%EFrite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zanazziite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zanazziite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zaratite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zaratite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zektzerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zektzerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zemannite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zemannite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zeunerite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zeunerite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zincite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zincite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zinclipscombite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zinclipscombite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zinkenite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zinkenite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zinnwaldite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zinnwaldite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zippeite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zippeite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zircon.jpg" afterPath="$PROJECT_DIR$/assets/images/Zircon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zoisite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zoisite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zorite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zorite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/Zunyite.jpg" afterPath="$PROJECT_DIR$/assets/images/Zunyite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/calderite.jpg" afterPath="$PROJECT_DIR$/assets/images/calderite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/claudetite.jpg" afterPath="$PROJECT_DIR$/assets/images/claudetite.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/images/test.jpg" afterPath="$PROJECT_DIR$/assets/images/test.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/static/js/application.js" afterPath="$PROJECT_DIR$/assets/js/application.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/templates/minerals/detail.html" afterPath="$PROJECT_DIR$/templates/minerals/detail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/templates/minerals/index.html" afterPath="$PROJECT_DIR$/templates/minerals/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/templates/minerals/layout.html" afterPath="$PROJECT_DIR$/templates/layout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/templates/minerals/logo_header.html" afterPath="$PROJECT_DIR$/templates/minerals/logo_header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minerals/templates/minerals/random_mineral.html" afterPath="$PROJECT_DIR$/templates/minerals/random_mineral.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/minecat.iml" afterPath="$PROJECT_DIR$/.idea/minecat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minecat/settings.py" afterPath="$PROJECT_DIR$/minecat/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minecat/urls.py" afterPath="$PROJECT_DIR$/minecat/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minerals/models.py" afterPath="$PROJECT_DIR$/minerals/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minerals/templatetags/mineral_extras.py" afterPath="$PROJECT_DIR$/minerals/templatetags/mineral_extras.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minerals/tests.py" afterPath="$PROJECT_DIR$/minerals/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minerals/urls.py" afterPath="$PROJECT_DIR$/minerals/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minerals/views.py" afterPath="$PROJECT_DIR$/minerals/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +908,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/minecat$models.coverage" NAME="models Coverage Results" MODIFIED="1495557996427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/minerals" />
     <SUITE FILE_PATH="coverage/minecat$Test__minerals.coverage" NAME="Test: minerals Coverage Results" MODIFIED="1493737900762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/minecat$models.coverage" NAME="models Coverage Results" MODIFIED="1493752421798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/minerals" />
-    <SUITE FILE_PATH="coverage/minecat$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1493751018478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/minecat$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1501822793983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
@@ -34,6 +933,20 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db.sqlite3" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="schema #1" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -43,121 +956,73 @@
     <favorites_list name="minecat" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43581906">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mineral_extras.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/minerals/templatetags/mineral_extras.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minecat/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="72" lean-forward="true" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-                  <folding>
-                    <element signature="e#641#682#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/layout.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/minerals/static/css/global.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="649">
-                  <caret line="206" column="37" lean-forward="false" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minerals/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minerals/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minerals/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minecat/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="e#641#682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minerals/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -170,31 +1035,54 @@
       <find>strun</find>
       <find>optical properties</find>
       <find>specific gravity</find>
+      <find>minerals__item</find>
+      <find>bounds</find>
+      <find>contacts</find>
+      <find>nav</find>
+      <find>active</find>
+      <find>category</find>
     </findStrings>
+    <replaceStrings>
+      <replace>minerals</replace>
+      <replace>group</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/30ad11a0-c185-4e38-9d3b-7c448927baa8/console.sql" />
-        <option value="$PROJECT_DIR$/minerals/tests.py" />
-        <option value="$PROJECT_DIR$/minerals/views.py" />
         <option value="dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/minerals_mineral" />
         <option value="$PROJECT_DIR$/minerals/migrations/0002_minerals_model.py" />
         <option value="$PROJECT_DIR$/minerals/admin.py" />
-        <option value="$PROJECT_DIR$/minerals/urls.py" />
-        <option value="$PROJECT_DIR$/minecat/settings.py" />
-        <option value="$PROJECT_DIR$/minerals/templates/minerals/logo_header.html" />
-        <option value="$PROJECT_DIR$/minecat/urls.py" />
         <option value="$PROJECT_DIR$/minerals/templates/minerals/random_mineral.html" />
-        <option value="$PROJECT_DIR$/minerals/templates/minerals/index.html" />
         <option value="$PROJECT_DIR$/minerals/templates/minerals/layout.html" />
-        <option value="$PROJECT_DIR$/minerals/models.py" />
-        <option value="$PROJECT_DIR$/minerals/templatetags/mineral_extras.py" />
-        <option value="$PROJECT_DIR$/minerals/static/css/global.css" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/minerals/templates/minerals/detail.html" />
+        <option value="$PROJECT_DIR$/minerals/models.py" />
+        <option value="$PROJECT_DIR$/minerals/templates/minerals/index.html" />
+        <option value="$PROJECT_DIR$/minerals/templates/minerals/logo_header.html" />
+        <option value="$PROJECT_DIR$/minerals/templates/minerals/alpha_nav.html" />
+        <option value="$PROJECT_DIR$/minecat/views.py" />
+        <option value="$PROJECT_DIR$/templates/minerals/logo_header.html" />
+        <option value="$PROJECT_DIR$/templates/minerals/random_mineral.html" />
+        <option value="$PROJECT_DIR$/minerals/static/css/global.css" />
+        <option value="$PROJECT_DIR$/templates/minerals/index.html" />
+        <option value="$PROJECT_DIR$/minecat/urls.py" />
+        <option value="$PROJECT_DIR$/minecat/settings.py" />
+        <option value="$PROJECT_DIR$/templates/minerals/alpha_nav.html" />
+        <option value="$PROJECT_DIR$/minerals/urls.py" />
+        <option value="$PROJECT_DIR$/templates/minerals/category_sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/minerals/detail.html" />
+        <option value="$PROJECT_DIR$/assets/css/global.css" />
+        <option value="$PROJECT_DIR$/minerals/templatetags/mineral_extras.py" />
+        <option value="$PROJECT_DIR$/templates/minerals/group_nav.html" />
+        <option value="$PROJECT_DIR$/minerals/views.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/minerals/forms.py" />
+        <option value="$PROJECT_DIR$/minerals/tests.py" />
       </list>
     </option>
   </component>
@@ -205,10 +1093,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-471" />
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,6 +1131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,11 +1169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="minerals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,47 +1183,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="minerals" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minerals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecat" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -351,12 +1215,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/minecat" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/minerals/static" />
       <recent name="$PROJECT_DIR$/minerals/media" />
-      <recent name="$PROJECT_DIR$/minerals/static/data" />
-      <recent name="$PROJECT_DIR$/minerals" />
-      <recent name="$PROJECT_DIR$/minerals/templates/minerals" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.models">
     <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -375,6 +1251,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minerals/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -393,6 +1270,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minecat/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -413,6 +1291,13 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -468,6 +1353,7 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -497,26 +1383,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="minecat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -550,15 +1416,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="minecat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -572,19 +1433,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="minecat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minecat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.models" />
+      <item index="1" class="java.lang.String" itemvalue="Python.settings" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.models" />
+        <item index="1" class="java.lang.String" itemvalue="Python.settings" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -602,23 +1483,8 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.models" />
-      <item index="1" class="java.lang.String" itemvalue="Python.settings" />
-    </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.models" />
-        <item index="1" class="java.lang.String" itemvalue="Python.settings" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -634,34 +1500,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__ - 2017.05.02 at 12h 34m 23s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 17m 35s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 12h 36m 46s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 18m 15s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 12h 39m 53s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 18m 47s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 07m 23s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 19m 06s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 07m 59s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 20m 58s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 09m 16s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 16h 21m 19s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 09m 21s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 22h 52m 51s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 17m 13s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 22h 54m 17s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 17m 36s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 22h 54m 51s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__ - 2017.05.02 at 13h 50m 19s.xml">
+    <history-entry file="Test__ - 2017.08.03 at 22h 59m 55s.xml">
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
@@ -675,35 +1541,62 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-471" width="1920" height="1200" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12886049" sideWeight="0.49579832" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@minecat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30088496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23056443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.58318585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-36" y="260" width="1440" height="846" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37256637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.58318585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="22" width="1440" height="878" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37162954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15833333" sideWeight="0.49579832" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@minecat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813599" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23032904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1512247" sideWeight="0.5042017" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1512247" sideWeight="0.5042017" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.58318585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="18" width="1440" height="878" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37228915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15665236" sideWeight="0.49579832" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@minecat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819277" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23056443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1512247" sideWeight="0.5042017" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,75 +1605,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/minerals_mineral">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/static/data/test_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/minerals_mineral">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/minerals_mineral">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/django_migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/b47cb8a2/30ad11a0-c185-4e38-9d3b-7c448927baa8/minerals_mineral">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1064,7 +1888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/static/data/minerals.json">
+    <entry file="file://$PROJECT_DIR$/assets/data/minerals.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13049">
           <caret line="16620" column="4" lean-forward="false" selection-start-line="16620" selection-start-column="4" selection-end-line="16661" selection-end-column="5" />
@@ -1095,47 +1919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minecat/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="72" lean-forward="true" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-          <folding>
-            <element signature="e#641#682#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,49 +1926,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/index.html">
+    <entry file="file://$PROJECT_DIR$/minerals/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/random_mineral.html">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/1569086817/_yaml/FlowSequenceEndToken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="62" lean-forward="false" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/logo_header.html">
+    <entry file="file://$PROJECT_DIR$/templates/home.html" />
+    <entry file="file://$PROJECT_DIR$/minecat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/layout.html">
+    <entry file="file://$PROJECT_DIR$/minecat/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="673">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,41 +1968,130 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minecat/settings.py">
+    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="120" column="15" lean-forward="false" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+        <state relative-caret-position="469">
+          <caret line="208" column="42" lean-forward="false" selection-start-line="208" selection-start-column="42" selection-end-line="208" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/alpha_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/logo_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/random_mineral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/minerals/templatetags/mineral_extras.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/minerals/group_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="144" lean-forward="false" selection-start-line="4" selection-start-column="144" selection-end-line="4" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minerals/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minerals/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minerals/views.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/static/css/global.css">
+    <entry file="file://$PROJECT_DIR$/minerals/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="206" column="37" lean-forward="false" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/templates/minerals/detail.html">
+    <entry file="file://$PROJECT_DIR$/minecat/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#641#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minerals/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

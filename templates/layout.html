@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+
 {% load static %}
 {% load mineral_extras %}
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -15,10 +17,22 @@
 </head>
 <body>
 
-    {% block content %}
+    <div class="bounds">
+        {% logo_header %}
+        <nav class="text-centered">
+            <form class='form' action="{% url 'minerals:search' %}" method="GET">
+                <input type="search" name="q">
+                <button type="submit" class="">Search</button>
+            </form>
+        </nav>
+        {% alpha_nav current %}
+    <br>
+        {% group_search current %}
+        {% block content %}
+        {% endblock %}
+    </div>
 
-     {% endblock %}
+    {% random_mineral %}
 
-{% random_mineral %}
 </body>
 </html>

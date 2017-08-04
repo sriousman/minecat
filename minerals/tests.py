@@ -4,7 +4,8 @@ from django.test import TestCase
 
 from .models import Mineral, JSONReader
 
-test_dict = JSONReader('minerals/static/data/test_data.json')
+test_dict = JSONReader('/Users/srious/Virulant/techdegree/minerals/minecat/assets/data/test_data.json')
+
 class MineralModelTests(TestCase):
     def setUp(self):
         for d in test_dict:
@@ -20,7 +21,7 @@ class MineralModelTests(TestCase):
         self.assertEqual(Mineral.objects.all().count(), 3)
 
     def test_image_filename_creation(self):
-        self.assertEqual(self.mineral.image_filename, 'minerals/images/Abhurite.jpg')
+        self.assertEqual('images/Abhurite.jpg', self.mineral.image_filename)
 
 
 class MineralViewTest(TestCase):
@@ -39,6 +40,13 @@ class MineralViewTest(TestCase):
         self.assertEqual(resp.status_code, 200)
         self.assertIn(self.mineral, resp.context['minerals'])
         self.assertTemplateUsed(resp, 'minerals/index.html')
+
+    def test_search_view(self):
+        resp = self.client.get(reverse('minerals:search', args='a'))
+        self.assertEqual(resp.status_code, 200)
+        self.assertIn(self.mineral, resp.context['minerals'])
+        self.assertTemplateUsed(resp, 'minerals/index.html')
+
 
     def test_mineral_detail_view(self):
         """The mineral_detail view should:
